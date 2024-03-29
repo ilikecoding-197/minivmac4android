@@ -4,7 +4,7 @@ plugins {
 }
 
 Properties props = new Properties()
-props.load(new FileInputStream(rootProject.file('release.properties')))
+
 
 android {
     compileSdkVersion 34
